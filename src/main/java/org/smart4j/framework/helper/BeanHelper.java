@@ -17,7 +17,7 @@ import org.smart4j.framework.util.ReflectionUtil;
  * 功能说明：
  *
  */
-public class BeanHelper {
+public final class BeanHelper {
     
     /*
      * 定义Bean映射（用于存放Bean类与Bean实例的映射关系)

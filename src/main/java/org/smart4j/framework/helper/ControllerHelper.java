@@ -22,7 +22,7 @@ import org.smart4j.framework.util.CollectionUtil;
  * 功能说明：
  *
  */
-public class ControllerHelper {
+public final class ControllerHelper {
     
     /*
      * 用于存放请求与处理器的映射关系（Action Map)

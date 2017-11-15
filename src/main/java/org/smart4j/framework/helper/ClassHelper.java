@@ -19,7 +19,7 @@ import org.smart4j.framework.util.ClassUtil;
  * 功能说明：
  *
  */
-public class ClassHelper {
+public final class ClassHelper {
     
     /*
      * 定义类集合（用于存放所加载的类）

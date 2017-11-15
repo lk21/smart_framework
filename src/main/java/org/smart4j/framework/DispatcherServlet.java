@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.omg.CORBA.Request;
+
 import org.smart4j.framework.bean.Data;
 import org.smart4j.framework.bean.Handler;
 import org.smart4j.framework.bean.Param;

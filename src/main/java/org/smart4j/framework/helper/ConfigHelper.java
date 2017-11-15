@@ -15,7 +15,7 @@ import java.util.Properties;
 import org.smart4j.framework.ConfigConstant;
 import org.smart4j.framework.util.PropsUtil;
 
-public class ConfigHelper {
+public final class ConfigHelper {
     
     private static final Properties CONFIG_PROPS = PropsUtil.loadProps(ConfigConstant.CONFIG_FILE);
     
@@ -58,7 +58,7 @@ public class ConfigHelper {
      * 获取JSP路径
      */
     public static String getAppJspPath() {
-        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_JSP_PATH,"WEB-INF/view/");
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_JSP_PATH,"WEB-INF/jsp/");
     }
     
     /*

@@ -1,6 +1,6 @@
 package org.smart4j.framework.util;
 
-import org.apache.commons.lang.ArrayUtils;
+import org.apache.commons.lang3.ArrayUtils;
 
 /**
  * 数组工具类
@@ -12,7 +12,7 @@ import org.apache.commons.lang.ArrayUtils;
  * 功能说明：
  *
  */
-public class ArrayUtil {
+public final class ArrayUtil {
     
     /*
      * 判断数组是否非空

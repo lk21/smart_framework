@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
  * 功能说明：
  *
  */
-public class ReflectionUtil {
+public final class ReflectionUtil {
     
     private static final Logger LOGGER = LoggerFactory.getLogger(ReflectionUtil.class);
     

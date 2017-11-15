@@ -10,7 +10,6 @@ import java.util.Set;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
-import javax.management.RuntimeErrorException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -112,7 +111,7 @@ public final class ClassUtil {
                     subPackagePath = packagePath + "/" + subPackagePath;
                 }
                 String subPackageName = fileName;
-                if(StringUtil.isNotEmpty(subPackageName)) {
+                if(StringUtil.isNotEmpty(packageName)) {
                     subPackageName = packageName + "." + subPackageName;
                 }
                 addClass(classSet, subPackagePath, subPackageName);
